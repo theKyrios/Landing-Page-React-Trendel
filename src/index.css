@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Alata', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +9,181 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.badgeSection {
+  background: rgb(255,127,55);
+background: linear-gradient(90deg, rgba(255,127,55,1) 0%, rgba(135,47,144,0.8421962535014006) 37%, rgba(255,127,55,0.7189469537815126) 74%, rgba(135,47,144,0.8253895308123249) 95%);
+}
+
+.light-button button.bt {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button button.bt .button-holder svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-button button.bt .light-holder {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button button.bt .light-holder .dot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button button.bt .light-holder .light {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button button.bt:hover .button-holder svg {
+  fill: rgba(253, 141, 89, 1);
+}
+
+.light-button button.bt:hover .button-holder {
+  color: rgba(253, 141, 89, 1);
+  outline: rgba(243, 141, 89, 1) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-button button.bt:hover .light-holder .light {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(253, 141, 89, 1) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.button1 {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 7px;
+  border: none;
+  background: #931d9d;
+  color: white;
+  font-family: inherit;
+  text-align: center;
+  font-size: 13px;
+  box-shadow: 0px 8px 16px -11px #931d9d;
+  width: 10em;
+  padding: 0.4em;
+  transition: all 0.4s;
+  cursor: pointer;
+ }
+ 
+ .button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+ }
+ 
+ .button1 span:after {
+  content: 'for free';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.7s;
+ }
+ 
+ .button1:hover span {
+  padding-right: 3.55em;
+ }
+ 
+ .button1:hover span:after {
+  opacity: 4;
+  right: 0;
+ }
+
+ .button-outerwrapper {
+  position : fixed;
+  display : flex;
+  bottom : 10px;
+  width : 100vw;
+  justify-content: center;
+  padding : 10px 0;
+ }
+
+ .button-container {
+  display: flex;
+  background-color: white;
+  width: 300px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px,
+        rgba(245, 73, 144, 0.5) 5px 10px 15px;
+}
+
+.button2 {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button2:hover {
+  transform: translateY(-3px);
+  color: #fd7f37;
+}
+
+.icon2 {
+  font-size: 50px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
