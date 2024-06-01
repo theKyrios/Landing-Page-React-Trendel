@@ -21,7 +21,7 @@ function Footer() {
   
 
   const icons = [
-    { src: instagram, alt: "Icon 1" },
+    { src: instagram, alt: "Icon 1" }, 
     { src: facebook, alt: "Icon 2" },
     { src: twitter, alt: "Icon 3" },
   ];
