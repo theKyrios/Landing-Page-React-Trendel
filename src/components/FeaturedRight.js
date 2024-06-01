@@ -15,7 +15,7 @@ const FeaturedRight = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="">
+            <div className="h-auto">
                 <img loading="lazy" src={image} className="" alt="Featured" />
             </div>
             <div className="flex flex-col justify-start items-end md:hidden">

@@ -18,7 +18,7 @@ function TrustBanner() {
   ];
 
   return (
-    <section className="flex justify-center w-screen items-center px-8 md:px-16 py-4 md:py-9 text-4xl text-white max-md:px-5 badgeSection">
+    <section data-scroll-section className="flex justify-center w-screen items-center px-20 max-md:px-20 py-4 md:py-9 text-4xl text-white max-md:px-5 badgeSection">
       <div className=" gap-2 md:gap-5 justify-between w-full max-w-[1119px] grid grid-cols-3">
         {metrics.map((metric, index) => (
           <MetricItem key={index} amount={metric.amount} description={metric.description} />

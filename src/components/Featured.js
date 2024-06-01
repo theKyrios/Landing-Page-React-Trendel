@@ -6,7 +6,7 @@ const Featured = (props) => {
 
     return (
         <section className="w-full grid grid-cols-1 md:grid-cols-2 justify-center gap-0 md:gap-4 h-fit py-4">
-            <div className="h-full flex items-center">
+            <div className="h-auto flex items-end justify-center">
                 <img loading="lazy" src={image} className="" alt="Featured" />
             </div>
             <div className="flex flex-col justify-start">

@@ -8,10 +8,13 @@ import Icon1 from "../assets/clock-Filled.svg";
 import Icon2 from "../assets/Slideshow_regular.svg";
 import Icon3 from "../assets/map-marker.svg";
 
-const FeaturedSection = () => (
-  <div className="relative w-screen max-w-6xl px-4 md:px-10 overflow-hidden flex flex-col items-start justify-center py-10">
+const FeaturedSection = () => {
+  
+
+return (
+  <div id="whytrendel" data-scroll-section className="relative w-screen max-w-6xl px-12 max-md:px-14 overflow-hidden flex flex-col items-start justify-center py-10">
     <div className="my-8">
-      <h2 className="text-left font-semibold text-3xl md:text-5xl py-2">
+      <h2 className="text-left font-semibold text-2xl md:text-5xl py-2">
         Get the Ultimate Retail <br />
         Experience with Our App
       </h2>
@@ -53,5 +56,7 @@ half an hour."
     ></Featured>
   </div>
 );
+
+};
 
 export default FeaturedSection;
