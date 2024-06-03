@@ -29,11 +29,11 @@ return (
     <section className="relative mt-20 text-5xl md:text-6xl font-semibold text-center text-fuchsia-800 max-md:text-4xl">
     
       <div className="h-[120px] overflow-hidden">
-      <h1 id="heading" className=" text-black relative z-10" >
-      Shop Smarter<br /><span className="text-fuchsia-800 text-5xl md:text-6xl">Get it Faster</span>
+      <h1 id="heading" className=" text-fuchsia-800 relative z-10" >
+      Store to Door<br /><span className="text-fuchsia-800 text-5xl md:text-6xl">In<span className="text-orange-600">&nbsp;30&nbsp;</span>Minutes</span>
       </h1>
       </div>
-      <p className="mt-4 md:mt-9 text-sm md:text-xl font-extralight leading-8 text-center text-neutral-700 realtive z-10">Experience 40 minutes delivery</p>
+      <p className="mt-4 md:mt-9 text-sm md:text-xl font-extralight leading-8 text-center text-neutral-700 realtive z-10">Your city at your fingertips</p>
     </section>
     <section className="flex w-screen justify-center mt-8">
       <div className="flex justify-center">

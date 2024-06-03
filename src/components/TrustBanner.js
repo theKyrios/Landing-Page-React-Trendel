@@ -12,9 +12,9 @@ function MetricItem({ amount, description }) {
 
 function TrustBanner() {
   const metrics = [
-    { amount: "250+", description: "Stores Available" },
-    { amount: "30k", description: "Active Users" },
-    { amount: "30mins.", description: "Delivery Guaranteed" },
+    { amount: "1 Lakh+", description: "Happy Customers" },
+    { amount: "1000+", description: "Seller Network" },
+    { amount: "30mins.", description: "Delivery Promise" },
   ];
 
   return (
