@@ -1,4 +1,5 @@
 {
+  "homepage": "/static/",
   "name": "trendel",
   "version": "0.1.0",
   "private": true,
